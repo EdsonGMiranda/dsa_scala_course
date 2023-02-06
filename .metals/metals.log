@@ -1,0 +1,400 @@
+2023.02.04 14:12:44 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 04, 2023 2:12:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.02.04 14:12:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 04, 2023 2:12:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.02.04 14:13:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 04, 2023 2:13:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.02.04 14:13:07 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 04, 2023 2:13:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.02.04 14:13:12 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 04, 2023 2:13:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.02.05 21:45:51 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 05, 2023 9:45:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.02.05 21:45:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 05, 2023 9:45:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.02.05 21:46:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 05, 2023 9:46:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.02.05 21:46:04 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 05, 2023 9:46:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.02.05 21:46:08 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Pichau\Downloads\Formação Engenheiro de Dados\5 - Analytics,Visualização, Relatórios e Tomada de Decisões com Big Data\Cap-02\.metals\lsp.trace.json or C:\Users\Pichau\AppData\Local\scalameta\metals\cache\lsp.trace.json
+fev 05, 2023 9:46:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 52: file:///c:/Users/Pichau/Downloads/Forma%C3%A7%C3%A3o Engenheiro de Dados/5 - Analytics%2CVisualiza%C3%A7%C3%A3o%2C Relat%C3%B3rios e Tomada de Decis%C3%B5es com Big Data/Cap-02
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
